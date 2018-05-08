@@ -1,6 +1,6 @@
 # Clothing detection dataset
 
-I have created a database with wild images where garments are detected. The are two files, the "dataset.zip", where you can find all the images and the "data.zip", where there are the jsons with the metadata of the images.
+I have created a dataset with wild images where garments are detected, I have gotten all the images from instagram. The are two files, the "dataset.zip", where you can find all the images and the "data.zip", where there are the jsons with the metadata of the images. 
 
 ## Getting Started
 
