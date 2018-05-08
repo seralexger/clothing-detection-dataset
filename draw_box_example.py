@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+
+#########################################################
+#
+# Alejandro German
+# 
+# https://github.com/seralexger/clothing-detection-dataset
+#
+#########################################################
+
+
+
 from PIL import Image
 import json
 import glob
