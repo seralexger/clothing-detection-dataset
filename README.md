@@ -1,1 +1,1 @@
-# clothing-detection-dataset
+# Clothing detection dataset
