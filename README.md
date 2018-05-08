@@ -6,6 +6,10 @@ I have created a database with wild images where garments are detected. The are 
 
 All the necesary libraries for run the project are in the requirements.txt.
 
+### Example
+
+In draw_box_example.py there is an example code to draw the boxes, and in crop_example.py there is an example code to crop the clothes of the image.
+
 ### Data JSON scheme example
 
 ```
