@@ -91,7 +91,7 @@ In draw_box_example.py there is an example code to draw the boxes, and in crop_e
             "width": 218.4789276123047,
             "height": 296.2758421897888,
             "genre": "mujer",
-            "class": "afueras"
+            "class": "falda"
         },
         {
             "x": 448.34460496902466,
