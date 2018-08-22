@@ -21,16 +21,19 @@ import matplotlib.patches as patches
 files_list = glob.glob('data/*.json')
 img_data = json.loads(open(files_list[random.randint(0, len(files_list)-1)]).read())
 normal_img = Image.open('dataset/' + img_data['file_name'])
-#fig,ax = plt.subplots(1)
+
 fig=plt.figure(figsize=(8, 8))
 columns = 4
-rows = 5
+if len(img_data['arr_boxes']) > columns:
+	rows = int(len(img_data['arr_boxes'])-columns)
+else:
+	rows = 1
 for index,item in enumerate(img_data['arr_boxes']):
-	box = patches.Rectangle((item['x'], item['y']),  item['width'],  item['height'],linewidth=2,edgecolor=(random.uniform(0.0,1.0), random.uniform(0.0,1.0),random.uniform(0.0,1.0)) ,facecolor='none', label = item['class'])
-	ax = fig.add_subplot(111)
-	ax.add_patch(box)
+	img2 = normal_img.crop((item['x'], item['y'],  item['x']+item['width'],  item['y']+item['height']))
+	ax = fig.add_subplot(rows, columns, index+1)
+	ax.set_title(item['class'])
 	ax.axis('off')
-
+	plt.imshow(img2)
+	plt.subplots_adjust(hspace=0.4)
 plt.legend()
-plt.imshow(normal_img)
 plt.show()
