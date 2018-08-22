@@ -15,6 +15,10 @@ In draw_box_example.py there is an example code to draw the boxes, and in crop_b
 
 ![alt text](https://raw.githubusercontent.com/seralexger/clothing-detection-dataset/master/readme_images/img_draw_example.png)
 
+#### Crop box example
+
+![alt text](https://raw.githubusercontent.com/seralexger/clothing-detection-dataset/master/readme_images/img_crop_example.png)
+
 
 ### Data JSON scheme example
 
