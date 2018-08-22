@@ -8,7 +8,7 @@ All the necesary libraries for run the project are in the requirements.txt.
 
 ### Example
 
-In draw_box_example.py there is an example code to draw the boxes, and in crop_example.py there is an example code to crop the clothes of the image.
+In draw_box_example.py there is an example code to draw the boxes, and in crop_box_example.py there is an example code to crop the clothes of the image.
 
 
 #### Draw box example
