@@ -2,7 +2,7 @@ I have built a dataset that contains 100k images from instagram with an automate
 
 # Clothing detection dataset
 
-I have created a dataset with wild images where garments are detected, I have gotten all the images from instagram. The are two files, the "dataset.zip" (you can download from https://files.fm/u/xcgc4djv), where you can find all the images and the "data.zip", where there are the jsons with the metadata of the images. 
+I have created a dataset with wild images where garments are detected, I have gotten all the images from instagram. The are two files, the "dataset.zip" (you can download from https://mega.nz/#!JdJyHKbJ!svy5SyoLSHfjUJOM5YcBXrQahvXFuTGDquPkWaxUKgo), where you can find all the images and the "data.zip" (it is in the repo or in https://mega.nz/#!1NJyWA7B!uWUjZp5bWuxjJfc2ElxZt3i_k2RvILuy9dHHNm9qF50), where there are the jsons with the metadata of the images. 
 
 ## Getting Started
 
