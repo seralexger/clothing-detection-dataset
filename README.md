@@ -1,5 +1,4 @@
-I have built a dataset that contains 100k images from instagram with an automate annotation like the examples of this repo. If you are interested in this and other custom datasets send an email to "seralexger@gmail.com", I am thinking in create a telegram bot or telegram group for dataset requests.
-
+I have built a dataset that contains 100k images from instagram with an automate annotation like the examples of this repo. If you are interested in this and other custom datasets send an email to "seralexger@gmail.com".
 # Clothing detection dataset
 
 I have created a dataset with wild images where garments are detected, I have gotten all the images from instagram. The are two files:
