@@ -1,5 +1,3 @@
-I have built a dataset that contains >80k images from ecommerce with an automate annotation like the examples of this repo. You can find it on https://github.com/seralexger/clothing-detection-ecommerce-dataset
-
 # Clothing detection dataset
 
 I have created a dataset with wild images where garments are detected, I have gotten all the images from instagram. The are two files:
